@@ -1,17 +1,4 @@
-#!/bin/bash
-#
-# -= Resources =-
-#SBATCH --job-name=ft  
-#SBATCH --nodes=1 
-#SBATCH --ntasks-per-node=20
-##SBATCH --mem 240G 
-#SBATCH --account=mdbf
-#SBATCH --qos=long_mdbf
-#SBATCH --partition=long_mdbf
-#SBATCH --time=0-18:00:00
-#SBATCH --output=percentgaes.out 
-#SBATCH --mail-type=ALL
-##SBATCH --mail-user=baran.ozcan@sabanciuniv.edu 
+#add relevant SBATCH commands here
 
 
 ##Settings##
