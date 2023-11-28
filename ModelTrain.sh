@@ -1,17 +1,4 @@
-#!/bin/bash
-#
-# -= Resources =-
-#SBATCH --job-name=ft  
-#SBATCH --nodes=1 
-#SBATCH --ntasks-per-node=20 
-##SBATCH --mem 240G 
-#SBATCH --account=mdbf
-#SBATCH --qos=short_mdbf
-#SBATCH --partition=short_mdbf
-#SBATCH --time=0-2:00:00
-#SBATCH --output=model1.out 
-#SBATCH --mail-type=ALL
-##SBATCH --mail-user=baran.ozcan@sabanciuniv.edu 
+#add relevant SBATCH commands here
 
 
 cd
