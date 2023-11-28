@@ -1,17 +1,5 @@
-#!/bin/bash
-#
-# -= Resources =-
-#SBATCH --job-name=trim  
-#SBATCH --nodes=1 
-#SBATCH --ntasks-per-node=5 
-##SBATCH --mem 240G 
-#SBATCH --account=mdbf
-#SBATCH --qos=mid_mdbf
-#SBATCH --partition=mid_mdbf
-#SBATCH --time=0-5:00:00
-#SBATCH --output=pipe3.out 
-#SBATCH --mail-type=ALL
-##SBATCH --mail-user=baran.ozcan@sabanciuniv.edu 
+#add relevant SBATCH commands here
+
 
 
 ###Modify with the corresponding number of SRA number count
